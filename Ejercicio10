@@ -1,0 +1,28 @@
+/**
+ * @author Luis Ayala
+ */
+import java.util.Scanner;
+
+public class Ejercicio10 {
+
+    public static int mayor(int a, int b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer número: ");
+        int a = sc.nextInt();
+
+        System.out.print("Ingrese el segundo número: ");
+        int b = sc.nextInt();
+
+        int resultado = mayor(a, b);
+        System.out.println("El número mayor es: " + resultado);
+    }
+}
