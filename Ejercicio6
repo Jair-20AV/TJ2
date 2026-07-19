@@ -1,0 +1,15 @@
+/**
+ * @author Luis Ayala
+ */
+public class Ejercicio6 {
+
+    public static int obtenerNumero() {
+        int numero = (int) (Math.random() * 100) + 1;
+        return numero;
+    }
+
+    public static void main(String[] args) {
+        int resultado = obtenerNumero();
+        System.out.println("Número obtenido: " + resultado);
+    }
+}
