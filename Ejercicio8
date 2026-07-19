@@ -1,0 +1,24 @@
+/**
+ * @author Luis Ayala
+ */
+import java.util.Scanner;
+
+public class Ejercicio8 {
+
+    public static double calcularArea(double base, double altura) {
+        return base * altura;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese la base: ");
+        double base = sc.nextDouble();
+
+        System.out.print("Ingrese la altura: ");
+        double altura = sc.nextDouble();
+
+        double area = calcularArea(base, altura);
+        System.out.println("Área del rectángulo: " + area);
+    }
+}
